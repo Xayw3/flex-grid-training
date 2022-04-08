@@ -1,0 +1,57 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h4 {
+    
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a, button {
+    transition: all 0.5s ease;
+}
+
+button {
+    cursor: pointer;
+}
+
+// .container {
+//     max-width: 1110px;
+//     margin: 0 auto;
+// }
+
+a {
+    color: inherit;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn {
+    
+}
+
+

@@ -1,0 +1,15 @@
+.footer {
+    padding: 51px 0;
+}
+
+.social {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 26px;
+    justify-content: center;
+}
+
+.social__link:hover img {
+    transition: all .5s ease;
+    transform: scale(1.4);
+}

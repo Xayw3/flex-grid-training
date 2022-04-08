@@ -1,0 +1,151 @@
+/* ------ Media Queries ------ */
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+}
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .works-link-img {
+        height: 100%;
+    }
+
+    .works {
+        padding-bottom: 45px;
+    }
+
+    .footer {
+        padding: 29px 0;
+    }
+
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .offer {
+        max-width: 477px;
+    }
+
+    h1 {
+        font-size: 41px;
+    }
+
+    .menu {
+        margin-bottom: 72px;
+    }
+}
+
+/* 576px-767px */
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .avatar {
+        margin: auto;
+    }
+
+    .offer {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .offer__text {
+        max-width: 100%;
+    }
+
+    .offer__title {
+        max-width: 100%;
+    }
+
+    .work-info {
+        text-align: start;
+        margin-top: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        margin-bottom: 35px;
+    }
+
+    .mobile-menu__btn {
+        margin-left: auto;
+        z-index: 15;
+        position: fixed;
+        top: 20px;
+        right: 35px;
+    }
+
+    .mobile-menu__list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: #EDF7FA;
+        z-index: 3;
+        font-size: 45px;
+        gap: 40px;
+        transition: all 1s ease;
+    }
+
+    .mobile-menu__list.active {
+        display: flex;
+    }
+
+    .mobile-menu__item:first-child {
+        margin-top: 60px;
+    }
+}
+
+/* 451px-575px */
+
+@media screen and (max-width: 575px) {	
+    .container {
+        max-width: 95%;
+    }
+}
+
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .hero {
+        padding-bottom: 60px;
+    }
+
+    .menu {
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
